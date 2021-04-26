@@ -1,0 +1,41 @@
+.wallet-item {
+    border: 1px solid #343a40;
+    border-radius: 6px;
+    padding: 0px 0px;
+    margin: 10px 0;
+
+    .wallet-item__header {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 10px;
+        background-color: #343a40;
+        color: white;
+        border-top: 1px solid #343a40;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .wallet-item__body {
+        background-color: white;
+        border-bottom: 1px solid white;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        padding: 10px 10px;
+
+        .wallet-item__coin {
+            padding: 5px 0;
+
+            .coin-icon {
+                width: 35px;
+                margin-right: 10px;
+            }
+        }
+
+        .hasDivider {
+            border-bottom: 1px solid #cecece;
+        }
+
+        
+    }
+}

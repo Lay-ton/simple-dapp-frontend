@@ -1,0 +1,12 @@
+.site-nav {
+    background-color: white;
+    width: 100%;
+    
+    .site-nav__header {
+        flex-direction: row-reverse;
+    }
+}
+
+.navbar-collapse {
+    align-items: start;
+}
